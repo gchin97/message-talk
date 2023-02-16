@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>The Soccer Home</title>
+    <style>
+      html {
+        background-color: lightgrey;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: wrap;
+      }
+      /* *{border:dashed 1px;} */
+      h1 {
+        animation-duration: 2s;
+        color: blue;
+        animation-name: slidein;
+      }
+      .nick {
+        background-color: pink;
+        animation-name: slidein;
+        animation-duration: 5s;
+      }
+
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+      input::placeholder {
+        background-color: palegreen;
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      sizes="16x16 32x32 64x64"
+      href="https://img.freepik.com/free-vector/soccer-ball-realistic-white-black-picture_1284-8506.jpg"
+    />
+    <meta charset="utf-8" />
+    <meta name="description" content="Hello Welcome to the soccer network" />
+  </head>
+  <body>
+    <h1>직장인 축구 커뮤니티</h1>
+    <h2>직장인 축구 커뮤니티에 오신 것을 환영합니다!</h2>
+    <p>
+      저희는 국내 최대 규모의 직장인 축구 커뮤니티로
+      <mark>k-리그 동행, 축구웨어 중고물품 판매 및 주말 팀원 모으기 서비스</mark
+      >를 제공하고 있습니다.
+    </p>
+    <header><strong>Name your best Soccer Game</strong></header>
+    <form>
+      <label for="Answer">Answer</label>
+      <input id="Answer" required placeholder="Answer" type="text" />
+      <input type="submit" value="submit" />
+    </form>
+
+    <a
+      href="https://fortune.com/2022/12/18/watch-stream-fifa-world-cup-finals-live-online-free-without-cable-2022-what-channel-fox-telemundo-peacock/"
+    >
+      Mine is 2022 WorldCup finals</a
+    >
+    <p class="nick">
+      닉네임은 <strong>축구선수 이름</strong>으로 지을 수 있으며 예시는 아래와
+      같습니다.
+    </p>
+    <oi>
+      <li class="nick">메시</li>
+      <li class="nick">이강인</li>
+      <li class="nick">음바페</li>
+    </oi>
+    <form>
+      <label for="Nick Name">Nickname</label>
+      <input type="text" required placeholder="Nickname" />
+      <label for="password">Password</label>
+      <input type="number" required placeholder="Password" minlength="10" />
+      <input type="submit" value="submit" />
+    </form>
+    <h2>Set up your Profile Photo</h2>
+    <form>
+      <label for="profile">Upload Your Profile Photo</label>
+      <input id="profile" type="file" accept="image/*, .pdf, .png, video/*" />
+    </form>
+
+    <video src="https://www.youtube.com/watch?v=-UcC8WFvCXk" controls></video>
+    <img
+      src="https://img4.daumcdn.net/thumb/R658x0.q70/?fname=https://t1.daumcdn.net/news/202301/15/SpoHankook/20230115060013382aiyg.jpg"
+    />
+    <img
+      src="data:image/jpeg;base64,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"
+    />
+  </body>
+</html>
