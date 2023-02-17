@@ -1,0 +1,41 @@
+.chats-column{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.chats-player-profile__column img{
+    width: 80px;
+    height: 80px;}
+    
+.chats-player-profile__column span{
+    justify-content: center;
+    padding: 20px;
+}
+
+.chats-player-profile__column{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+
+    .chats-player_name{
+        font-size: 20px;
+        margin: 20px 0px;
+    }
+    .chats-player-text{
+        margin-top: 20px;
+        opacity: 0.7;
+        width: 60%;
+        text-align: none;
+    }
+
+    .chats-player-time{
+        display: flex;
+        justify-content: flex-end;
+        /* width:30%; */
+         font-size: 12px;
+        align-items: center;
+        margin-right: 0px;
+    }

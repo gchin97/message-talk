@@ -1,0 +1,40 @@
+.find-myownprofile{
+border: none;    
+}
+
+.find-mycolumn{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+}
+
+.suggestion-video{
+    margin: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.find-myownprofile{
+    border-bottom: 0.5px solid yellow;
+}
+
+.find-suggestions{
+    opacity: 0.7;
+    padding: 0px 5px;
+}
+.suggestion_video{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 80%;
+    padding: 20px;
+}
+.suggestion_video span{
+    padding-bottom: 20px;
+}
+
+.suggestion-video_video{
+    width: 100%;
+}
+

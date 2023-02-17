@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 5px 3px;
 }
 
 .status-bar__column{
@@ -10,25 +11,3 @@ margin: 2px;
 padding-right: 7px;
 }
 
-.log-in{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    margin-top: 50px;
-}
-.log-in-image{
-width: 100px;
-height: 100px; }
-
-.log-in_title span{
-    font-size: 60px;
-
-}
-.log-in_text{
-    width: 60%;
-    font-size: 18px;
-    color: rgba(0,0,0,0.3);
-    
-}

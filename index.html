@@ -14,33 +14,27 @@
   </head>
 
   
-  <header>
       <div class="status-bar">
         <div class="status-bar__column"><i class="fas fa-phone-alt"></i> 5G</div>
         <div class="status-bar__column">18:00</div>
         <div class="status-bar__column">50% <i class="fas fa-battery-half"></i></div>
       </div>
-  </header>
+ 
+ 
+    <header class="welcome-header">
+            <img class="welcome-header__image" src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/800px-Manchester_United_FC_crest.svg.png"/>
+            <h1 class="welcome-header__title">Welcome to Manchester United Messenger</h1>
+            <p class="welcome-header__text">If you have an Account, log in with your email or phone number.</p>
+    </header>
 
-
-    <body>
-        <div class="log-in">
-        <div><img class="log-in-image" src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/800px-Manchester_United_FC_crest.svg.png"/>   
-        <h1 class="log-in_title"></h1>
-        </div> Welcome to Manchester United Talk</h1>
-        <h2 class="log-in_text">
-        If you have an Account, log in with your email or phone number.
-      </h2>
-    </div>
-      
-        <input type="email" required placeholder="Email or phone number" />
-      </div>
-      <div>
-        <input type="password" required placeholder="Password" minlength="5" />
-      </div>
-      <div><input type="submit" value="Log in" /></div>
-      <div><input type="submit" value="Sign Up" /></div>
-      <a href="#">Find Kakao Account or Password.</a>
+    <form class="log-in__input" action="friends.html" method="get">
+       <input class="log-in__input_column log-in-page_id" type="email" placeholder="Email" />
+        <input class="log-in__input_column log-in-page_password" type="password" placeholder="Password" minlength="5" />
+        <input action="friends.html" method="get" class="log-in__input_column log-in-page_submit_button log-in-login" type="submit" value="Log in" />
+        <input class="log-in__input_column log-in-page_submit_button log-in-signup" type="submit" value="Sign Up" />
+        <a class="log-in__input_column_a" href="#">Find Account or Password</a>
+    </form>
+    
     </body>
 
 
