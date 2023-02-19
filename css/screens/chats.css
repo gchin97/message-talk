@@ -1,18 +1,29 @@
-.chats-column{
+/* .chats-column{
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    /* justify-content: flex-end; */
+    /* align-items: center;
+} */ 
+.chats-player-profile__column{
+    display: flex;
+    justify-content: space-between;
 }
-
+.chats-playerchat-column{
+    left:0;
+    /* justify-content: flex-start; */
+ width: 100%;   
+}
 .chats-player-profile__column img{
     width: 80px;
     height: 80px;}
     
-.chats-player-profile__column span{
+/* .chats-player-profile__column span{
     justify-content: center;
-    padding: 20px;
-}
+} */
 
+/* 
+.chats-player-chats{
+    justify-content: flex-start;
+} */
 .chats-player-profile__column{
     display: flex;
     align-items: center;
@@ -22,20 +33,88 @@
 
     .chats-player_name{
         font-size: 20px;
-        margin: 20px 0px;
-    }
+        /* justify-content: flex-start; */
+width: 100;  }
     .chats-player-text{
         margin-top: 20px;
         opacity: 0.7;
         width: 60%;
         text-align: none;
+        padding: 10px 0px;
+    }
+    .chats-player-tex_{
+padding: 10px 0px;
     }
 
     .chats-player-time{
         display: flex;
         justify-content: flex-end;
-        /* width:30%; */
-         font-size: 12px;
+        font-size: 12px;
+        display: block;
         align-items: center;
-        margin-right: 0px;
+        margin-left: 80px;
     }
+
+    .chat-player__{ text-decoration: none;
+    color: var(--yellow); }
+
+    .nav__btn_chat{
+        position: relative;
+    }
+
+.badge{
+background-color:black;
+color: yellow;
+padding: 5px;
+border-radius: 20px; 
+position: absolute;
+font-size: 18px;
+left: 23px; 
+bottom: 10px;
+animation: noti 2s ease-in-out infinite;  }
+
+@keyframes noti {
+
+    0%{
+transform: none;
+    }
+    50%{
+transform: translateY(-5px) rotateY(180deg);
+
+    }
+    100%{
+        transform: none;
+
+    }
+}
+.chats-player-profile__column:hover{
+    background-color: gray;
+    transition: background-color 0.5s ease-in-out;
+}
+.chats-player-profile__column{
+transform: translateX(-1000px);
+    animation: popup 1s linear forwards;
+}
+
+.chats-player-profile__column:nth-child(2){
+    transform: translateX(-1000px);
+    animation-delay: 0.5s;
+}
+.chats-player-profile__column:nth-child(3){
+    transform: translateX(-1000px);
+    animation-delay: 0.7s;
+}
+.chats-player-profile__column:last-child{
+    transform: translateX(-1000px);
+    animation-delay: 0.9s;
+}
+
+@keyframes popup{
+    from{
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+to{
+    transform: none;
+    opacity:1;
+}}
